@@ -1,2 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+
+
+string frase = "O dia está lindo!!!!!";
+//retorna parte da frase
+
+Console.WriteLine (frase.Substring(0,5));
+//subtitui uma palavra
+
+frase.Replace("lindo", "chuvoso");
+Console.WriteLine (frase.Replace("lindo", "chuvoso"));
+
+//remove espaços vazios no ínicio e final da String
+
+//remove espaços vazios final da String
+frase.TrimEnd();
+
+//remove espaços vazios no ínicio String
+frase.TrimStart();
+
+//tira caracter especificos
+frase.Trim();
+frase.Trim('!');
+Console.WriteLine(frase.Trim('!'));
+
+
